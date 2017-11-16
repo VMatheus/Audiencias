@@ -1,0 +1,35 @@
+<resources>
+
+
+    <string name="app_name">Audiências</string>
+    <string name="title_home">Principal</string>
+    <string name="title_dashboard">Perfil</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_senha">Senha</string>
+    <string name="exibir_senha">Exibir senha</string>
+    <string name="senha_invalida">Senha invalida!</string>
+    <string name="campo_vazio">Este campo é obrigatório!</string>
+    <string name="email_invalido">Este endereço de e-mail é inválido!</string>
+    <string name="msg_progress">Aguarde...</string>
+    <string name="nome">Nome</string>
+    <string name="email">E-mail</string>
+    <string name="telefone">Telefone</string>
+    <string name="title_activity_adicionar_novo_contato">Novo Contato</string>
+    <string name="prompt_nome">Nome</string>
+    <string name="numero_invalido">Numero invalido!</string>
+    <string name="data_nasc">Data de Nascimento</string>
+    <string name="nao">NÃO</string>
+    <string name="sim">SIM</string>
+    <string name="salvando_perfil">Salvando Perfil</string>
+    <string name="atualizando_perfil">Atualizando Perfil</string>
+    <string name="salvando_contato">Salvando contato</string>
+    <string name="atualizando_contato">Atualizando contato</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

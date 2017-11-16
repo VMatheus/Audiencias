@@ -1,0 +1,67 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ooo"
+    android:id="@+id/container_fragment_principal"
+    android:layout_height="match_parent"
+    tools:context="Fragments.PrincipalFragment"
+    android:weightSum="1">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+
+                android:id="@+id/list_aud"
+                android:layout_marginLeft="10dp"
+                android:layout_width="150dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="120dp"
+                android:text="Audiencias" />
+
+            <Button
+
+
+                android:id="@+id/list_praz"
+                android:layout_marginLeft="10dp"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:text="Prazos" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <CalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="wrap_content"
+                android:layout_height="363dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+</LinearLayout>
+

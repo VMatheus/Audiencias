@@ -1,0 +1,177 @@
+<FrameLayout
+
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pedropoiani.desenvolvimento.dispositivosii.minhasaudincias.Fragments.PerfilFragment">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ooo"
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:background="@drawable/ic_tag_faces_black_24dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/imagem_perfil"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+
+                android:id="@+id/image_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/imagem_perfil"
+                android:padding="8dp"
+                app:srcCompat="@drawable/ic_camera_enhance_black_24dp"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:padding="10dp">
+
+            <android.support.design.widget.TextInputLayout
+
+                android:textColorHint="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+
+
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nome"
+                    android:inputType="textPersonName" />
+
+            </android.support.design.widget.TextInputLayout>
+
+         <!--   <android.support.design.widget.TextInputLayout
+
+                android:textColorHint="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+
+
+
+                    android:id="@+id/telefone_perfil"
+                    android:hint="Telefone"
+                    android:inputType="phone|number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </android.support.design.widget.TextInputLayout> -->
+
+
+            <android.support.design.widget.TextInputLayout
+
+
+                android:textColorHint="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+
+
+                android:textColorHint="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+
+                    android:textColorHint="#000000"
+                    android:id="@+id/nOab"
+                    android:hint="OAB"
+                    android:inputType="number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </android.support.design.widget.TextInputLayout>
+
+          <!--  <android.support.design.widget.TextInputLayout
+
+
+                android:textColorHint="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+
+                    android:textColorHint="#000000"
+                    android:id="@+id/cidade_perfil"
+                    android:hint="Cidade"
+                    android:inputType="textEmailAddress|textEmailSubject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </android.support.design.widget.TextInputLayout> -->
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+
+                android:id="@+id/salvar_perfil"
+                android:layout_width="256dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                android:hint="Salvar" />
+
+            <Button
+
+                android:id="@+id/editar_perfil"
+                android:layout_width="256dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                android:hint="Editar"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

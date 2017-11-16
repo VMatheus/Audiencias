@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "736376246926",
+    "firebase_url": "https://emprego-970ce.firebaseio.com",
+    "project_id": "emprego-970ce",
+    "storage_bucket": "emprego-970ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736376246926:android:2f9947232702811a",
+        "android_client_info": {
+          "package_name": "desenvolvimento.tecnoblack.emprego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736376246926-1hde812g3ljfhajchapfk2rmpdtdbg9t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "desenvolvimento.tecnoblack.emprego",
+            "certificate_hash": "0e57b827cca7270a80a131e333d95ce30a466d1f"
+          }
+        },
+        {
+          "client_id": "736376246926-12lvv7fhqp3uufsp2ql7lq1ke4n0he57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC17JPIAMGjcGRg7PG5eswygL-T1fQkEfE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736376246926-12lvv7fhqp3uufsp2ql7lq1ke4n0he57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736376246926:android:858b63c2a86f0af2",
+        "android_client_info": {
+          "package_name": "pedropoiani.desenvolvimento.dispositivosii.minhasaudincias"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736376246926-bvevmm0ns5am92di7ljbhtua3rj75e78.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pedropoiani.desenvolvimento.dispositivosii.minhasaudincias",
+            "certificate_hash": "0e57b827cca7270a80a131e333d95ce30a466d1f"
+          }
+        },
+        {
+          "client_id": "736376246926-12lvv7fhqp3uufsp2ql7lq1ke4n0he57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC17JPIAMGjcGRg7PG5eswygL-T1fQkEfE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736376246926-12lvv7fhqp3uufsp2ql7lq1ke4n0he57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
